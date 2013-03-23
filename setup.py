@@ -12,7 +12,7 @@ except ImportError:
 
 setup(
     name='Kanedama',
-    version='0.1',
+    version='0.1.1',
     provides=['kanedama'],
     description='Download and email Heroku invoices',
     long_description=open('README.rst').read(),
@@ -37,7 +37,6 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy',
         ],
     license='MIT',
-    test_suite='tests',
     scripts=['kanedama.py'],
     py_modules=['kanedama'],
     install_requires=install_requires,
