@@ -11,7 +11,7 @@ from email.mime.multipart import MIMEMultipart
 from ghost import Ghost
 
 try:
-    from ConfigParser import SafeConfigParser as ConfigParser
+    from configparser import SafeConfigParser as ConfigParser
 except ImportError:  # py3k
     import sys
     minor = sys.version_info[1]
